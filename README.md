@@ -30,25 +30,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src=![jkDDYDx](https://github.com/user-attachments/assets/b4bf69d9-42ad-4bc8-8a0b-35b81d50f276)
-
+<img src="https://i.imgur.com/jkDDYDx.png" height="80%" width="80%"
+</p>
 <p>
-Create yourself a ressource group to store your virtual machine in.
+In the search bar, type in "Ressource Group".
 </p>
 <br />
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps](https://imgur.com/jkDDYDx)"/>
+<img src="https://i.imgur.com/xFOutQE.png" heigh="80%" width="80%"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Name your ressource group. Ie: osTicket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Click on "Review + Create"
 </p>
 <br />
