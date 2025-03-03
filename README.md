@@ -41,8 +41,6 @@ Once you have your virtual machine up and running, go ahead and open up "Microso
 </p>
 <br />
 
-
-
 <p>
 <img src="https://i.imgur.com/jkDDYDx.png" height="80%" width="80%"
 </p>
@@ -70,7 +68,7 @@ Leave the extracted folder aside for now and search for "Control Panel" on the w
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-On the lefthand side of the window, find "turn windows features on or off" and click on it. Fullscreen the window and find the "Internet Information Services" and click the little plus button next to it. Do the same for "World Wide Web Services" and "Application Developemtn Features" until you find "CGI". Go ahead and turn that on and press "ok".A window should've popped up saying that it's installing the features. Wait for it to finish and then press "close".You can now exit the "Windows Features" window.
+On the lefthand side of the window, find "turn windows features on or off" and click on it. Fullscreen the window and find the "Internet Information Services" and click the little plus button next to it. Notice that "World Wide Web Services" and "Application Developemtn Features" are already turned on, do not mess with them. Keep going until you find "CGI". Go ahead and turn that on and press "ok". A window should've popped up saying that it's installing the features. Wait for it to finish and then press "close".You can now exit the "Windows Features" window.
 <br />
 
 <p>
@@ -104,12 +102,77 @@ On this screen, go ahead and enter a username and password that's easy to rememb
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP".
+On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP". Do not close the window.
 <br />
 
 <p>
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-On the search bar, type in "CGI
+Back to the osTicket installation folder, extract "upload" in the same folder. Navigate to the newly extracted files and rename "upload" to "osTicket" written exactly like that. Copy the file and navigate the (c:) drive until you reach "inethub". Click on it and find "wwwroot". Click on it and paste the folder copied earlier. Afterwards, navigate the folder until you find "include/ost-sample-config.php". Remove the "sample" so it becomes "include/ost-config.php". Afterwards, right click the file and hit "propreties", find the "security" section and find "advanced" and click "disable inheritance". Click the second option when prompted.
 <br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+After, click "add", "select and principal" and for the "object name" type in "Everyone". Press "ok". Press on "full control" and press "ok". Exit out of that window and press "apply" and "ok".
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+On the search bar, type in "IIS" as an admin.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+Find "CGI" and click on it.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+Find "PHP manager" and register. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+For the path, navigate to where we created and installed PHP earlier. (c:\PHP\php-cgi.exe). Navigate until you find the executable. Press "ok" Stop and start the server.
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+Still in the same window, find "php extensions" and click on "enable or disable an extension". Find "php_imap.dll", "p0hp_intl.dll" and php_opcache.dll. Enable them by right-clicking and pressing "enable" on each of them. These are necessary to allow osTicket to run correctly.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+Afterwards, navigate the lefthand side until you find "osTicket". Click on it and browse. the osTicket site should've popped up.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+Click next a couple of times until you are greated with this page. Go ahead and name your helpdesk, and input an email. For the admin settings, Fill in your name and add an email different from the one used previously.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". For the MySQL Username and password, enter the configuration you created when installing MySQL, for this example, we used "Root" for both. Press "Install Now" and wait.
+<br />
+
