@@ -22,15 +22,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - A ressource group
-- A wWndows virtual machine
+- A Windows virtual machine
 - osTicket installation files which can be found <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">here
 
 
 
 <h2>Installation Steps</h2>
 
-<p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided for <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">ressource group,
-  as well as a <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">virtual machine.</p>
+<p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided. 
+<p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a ressource group.
+
+<p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a virtual machine.</p>
 
 
 <p>
@@ -95,7 +97,7 @@ A new window should've been opened. Press "Next" to continue. On the next page, 
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-On this screen, go ahead and enter a username and password that's easy to remember. For this example, we will be using "root" for both the username and password. If you want, you can also open "notepad" to write the info down. Press "next" and on the following screen, hit "execute". Wait for stuff to be installed and press "finish".
+On this screen, go ahead and enter a password that's easy to remember. For this example, we will be using "root". If you want, you can also open "notepad" to write the info down. Note that the username is "Root". Press "next" and on the following screen, hit "execute". Wait for stuff to be installed and press "finish".
 <br />
 
 <p>
@@ -167,6 +169,13 @@ Afterwards, navigate the lefthand side until you find "osTicket". Click on it an
 </p>
 <p>
 Click next a couple of times until you are greated with this page. Go ahead and name your helpdesk, and input an email. For the admin settings, Fill in your name and add an email different from the one used previously.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". For the MySQL Username and password, enter the configuration you created when installing MySQL, for this example, we used "Root" for both. Press "Install Now" and wait.
 <br />
 
 <p>
