@@ -1,5 +1,5 @@
-# osTicket Prerequisites and Installation
-A guide on what you need to get osTicket up and running
+
+
 
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
@@ -183,5 +183,34 @@ For the database settings, the first two bars should've been already filled, don
 </p>
 <p>
 For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". For the MySQL Username and password, enter the configuration you created when installing MySQL, for this example, we used "Root" for both. Press "Install Now" and wait.
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+In the meantime, go back to the osTicket installation files and install "Heidi SQL". Agree to the terms and press "next" until you reach the page that says "Ready to install". Press the install button and wait for it to be installed. After that, press "finish", making sure that "Launch HeidiSQL" box is ticked on. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+On this window, press "skip". Then, press "new" and enter your password that you created for root. A bunch of folders should've appeared, including one called "osTicket".
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+After all of this, osTicket should be up and running, congrats on following this tutorial on how to get osTicket up and running. Make sure to clean stuff up like deleting the "setup" folder in C:\inetpub\wwwroot\osTicket\setup, as well as
+setting permissions to “Read” only in the "ost-config.php" file located in C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<br />
+
+<p>
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+</p>
+<p>
+You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here and as a user <a href=http://localhost/osTicket/>here.
 <br />
 
