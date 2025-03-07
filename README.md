@@ -1,6 +1,4 @@
 
-
-
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -29,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided. 
+<p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided for both steps. 
 <p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a ressource group.
 
 <p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a virtual machine.</p>
