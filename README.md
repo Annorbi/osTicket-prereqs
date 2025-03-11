@@ -22,15 +22,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - A ressource group
 - A Windows virtual machine
 - osTicket installation files which can be found <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">here
-
+<p></p>
+<i>*In the osTicket installation folder there should be 7 files</i>
 
 
 <h2>Installation Steps</h2>
 
 <p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided for both steps. 
-<p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a ressource group.
+<p></p> <a href="https://github.com/Annorbi/Ressource-Group">How to create a ressource group.
 
-<p></p><a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD"> How to create a virtual machine.</p>
+<p> <a href="https://github.com/Annorbi/Virtual-Machines">How to create a virtual machine.
+</p>
 
 
 <p>
@@ -201,7 +203,7 @@ On this window, press "skip". Then, press "new" and enter your password that you
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-After all of this, osTicket should be up and running, congrats on following this tutorial on how to get osTicket up and running. Make sure to clean stuff up like deleting the "setup" folder in C:\inetpub\wwwroot\osTicket\setup, as well as
+After all of this, osTicket should be up and running, congrats on following this tutorial on how to get osTicket up and running! Make sure to clean stuff up like deleting the "setup" folder in C:\inetpub\wwwroot\osTicket\setup, as well as
 setting permissions to “Read” only in the "ost-config.php" file located in C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <br />
 
