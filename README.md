@@ -22,13 +22,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - A ressource group
 - A Windows virtual machine
 - osTicket installation files which can be found <a href="https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">here
-<p></p>
-<i>*In the osTicket installation folder there should be 7 files</i>
-
 
 <h2>Installation Steps</h2>
 
-<p>Make sure to create a ressource group and a virtual machine if you haven't done so. If you don't know how to do so, a link will be provided for both steps. 
+<p>Make sure you have a ressource group and a virtual machine setup. If you do not know how to do so, links will be provided for both steps. 
 <p></p> <a href="https://github.com/Annorbi/Ressource-Group">How to create a ressource group.
 
 <p> <a href="https://github.com/Annorbi/Virtual-Machines">How to create a virtual machine.
@@ -36,75 +33,67 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <p>
-<img src="https://i.imgur.com/jkDDYDx.png" height="80%" width="80%"
+<img src="https://i.imgur.com/ra9iYVD.png" height="80%" width="80%"
 </p>
 <p>
-Once you have your virtual machine up and running, go ahead and open up "Microsoft edge" and copy/paste the osTicket installation files. Download the files and save them on your desktop.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/jkDDYDx.png" height="80%" width="80%"
-</p>
-<p>
-Once the files have been downloaded, right click and select "extract all".
+Once you have your virtual machine up and running, go ahead and open up "Microsoft edge" and copy/paste the osTicket installation files from above. Download the files.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/xFOutQE.png" heigh="80%" width="80%"
+<img src="https://i.imgur.com/rni9SJU.png" height="80%" width="80%"
 </p>
 <p>
-On the next screen, set the destination to the desktop by clicking "browse" and navigating until you find the desktop. Afterwards, click "select folder"
+Once the files have been downloaded, open your "Downloads" folder and right click to extract. On the next screen, set the destination to the desktop by clicking "browse" and navigating until you find the desktop. Afterwards, click "select folder" Extract the files to the desktop.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/Fd71aU1.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/Z9nnRGf.png" height="40%" width="40%"
 </p>
 <p>
 Leave the extracted folder aside for now and search for "Control Panel" on the windows search bar at the bottom. From there, find "Programs" and then "Programs and features".
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/im1ztG2.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/tHvFdF7.png" height="40%" width="40%"
 </p>
 <p>
-On the lefthand side of the window, find "turn windows features on or off" and click on it. Fullscreen the window and find the "Internet Information Services" and click the little plus button next to it. Notice that "World Wide Web Services" and "Application Developemtn Features" are already turned on, do not mess with them. Keep going until you find "CGI". Go ahead and turn that on and press "ok". A window should've popped up saying that it's installing the features. Wait for it to finish and then press "close".You can now exit the "Windows Features" window.
+On the lefthand side of the window, find "turn windows features on or off" and click on it. Fullscreen the window and find the "Internet Information Services" and click the little plus button next to it. Notice that "World Wide Web Services" and "Application Developpement Features" are already turned on, do not mess with them. Keep going until you find "CGI". Go ahead and turn that on and press "ok". A window should've popped up saying that it's installing the features. Wait for it to finish and then press "close". You can now exit the "Windows Features" window.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/nassrBv.png" height="50%" width="50%"
 </p>
 <p>
-Back to the osTicket installation folder, install "VC_Redist.x86", "rewrite_amd64_en-US" and "PHPManagerForIIS_V1.5.0". These three should install instantly with no issues.
+You can now open up the extracted osTicket installation files. From there, install "VC_Redist.x86", "rewrite_amd64_en-US" and "PHPManagerForIIS_V1.5.0". These three should install very easily with no issues.
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/j7f69bq.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/pCFF8EW.png" height="40%" width="40%"
 </p>
 <p>
 Next, Install "mysql-5.5.62-win32". Click "next", accept the terms in the liscense agreement and click "next". Click "typical" when choosing the setup type, and click "Install". Make sure that "Launch the MSQ Installation Wizard" box is checked and press "finish".
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/Ubx8EXw.png" height="50%" width="50%"
 </p>
 <p>
 A new window should've been opened. Press "Next" to continue. On the next page, press "standard configuration" and press "next". Press next again, making sure "Install as a windows service" box is checked.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/ISEXpOu.png" height="50%" width="50%"
 </p>
 <p>
-On this screen, go ahead and enter a password that's easy to remember. For this example, we will be using "root". If you want, you can also open "notepad" to write the info down. Note that the username is "Root". Press "next" and on the following screen, hit "execute". Wait for stuff to be installed and press "finish".
+On this screen, go ahead and enter a password that's easy to remember and make sure to remember it. For this example, we will be using "root". If you want, you can also open "notepad" to write the info down. Note that the username is "Root". Press "next" and on the following screen, hit "execute". Wait for stuff to be installed and press "finish".
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/7Ac5bDC.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/F4IhXZa.png" height="40%" width="40%" 
 </p>
 <p>
-On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP". Do not close the window.
+Minimize the installation folder for right, we'll come back to it later. On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP". From there, go back to the installation folder and right-click "php-7.3.8-nts-Win32-VC15-x86" and extract it to the new folder we just created. Close the newly extracted "PHP" folder.
 <br />
 
 <p>
