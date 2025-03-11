@@ -211,6 +211,6 @@ setting permissions to “Read” only in the "ost-config.php" file located in C
 <img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
 </p>
 <p>
-You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here and as a user <a href=http://localhost/osTicket/>here.
+You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here<p> and as a user <a href=http://localhost/osTicket/>here.
 <br />
 
