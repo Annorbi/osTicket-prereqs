@@ -93,14 +93,22 @@ On this screen, go ahead and enter a password that's easy to remember and make s
 <img src="https://i.imgur.com/7Ac5bDC.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/F4IhXZa.png" height="40%" width="40%" 
 </p>
 <p>
-Minimize the installation folder for right, we'll come back to it later. On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP". From there, go back to the installation folder and right-click "php-7.3.8-nts-Win32-VC15-x86" and extract it to the new folder we just created. Close the newly extracted "PHP" folder.
+Minimize the installation folder for right, we'll come back to it later. On your keyboard, press the "windows key" and "e" simultanously to open file explorer. From there, navigate to "This PC". After, press the c:/ drive "Windows (C:)". From here, Go ahead and create a new folder by right-clicking inside the folder until you see "new" and then "folder". Name it "PHP". From there, go back to the installation folder and right-click "php-7.3.8-nts-Win32-VC15-x86" and extract it to the new folder we just created. Close the newly extracted "PHP" folder but leave the "(c:) drive" folder up.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/TGuSTUp.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/8OpqnRs.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/EPd125O.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/NEkDINx.png" height="30%" width="30%"
 </p>
 <p>
-Back to the osTicket installation folder, extract "upload" in the same folder. Navigate to the newly extracted files and rename "upload" to "osTicket" written exactly like that. Copy the file and navigate the (c:) drive until you reach "inethub". Click on it and find "wwwroot". Click on it and paste the folder copied earlier. Afterwards, navigate the folder until you find "include/ost-sample-config.php". Remove the "sample" so it becomes "include/ost-config.php". Afterwards, right click the file and hit "propreties", find the "security" section and find "advanced" and click "disable inheritance". Click the second option when prompted.
+Back to the osTicket installation folder, extract "upload" in the same folder. Navigate to the newly extracted files and rename "upload" to <b>"osTicket"</b> written exactly like this. Right-click to copy the file. After that, find "This PC" and navigate the (c:) drive until you reach "inethub". Click on it and find "wwwroot". Click on it and paste the folder copied earlier. 
+<br />
+
+<p>
+<img src="https://i.imgur.com/8OpqnRs.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/ZN5YwLd.png" height="30%" width="30%" <p>
+  <img src="https://i.imgur.com/HI6uCsL.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/DBLSJUi.png" height="10%" width="10%" <p> <img src="https://i.imgur.com/U1nRmuw.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/OwIaEdS.png" height="30%" width="30%" 
+</p>
+<p>
+Afterwards, navigate the folder until you find "include/ost-sample-config.php". Remove the "sample" so it becomes "include/ost-config.php". Afterwards, right click the file and hit "propreties", find the "security" section and find "advanced" and click "disable inheritance". Click the second option when prompted.
 <br />
 
 <p>
