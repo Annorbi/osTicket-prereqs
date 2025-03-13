@@ -112,10 +112,10 @@ Afterwards, navigate the folder until you find "include/ost-sample-config.php". 
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/cPp9BSs.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/iY7D2bl.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/ywywRuM.png" height="30%" width="30%" 
 </p>
 <p>
-After, click "add", "select and principal" and for the "object name" type in "Everyone". Press "ok". Press on "full control" and press "ok". Exit out of that window and press "apply" and "ok".
+After, click "add", "select and principal" and for the "object name" type in "Everyone". Press "ok". Press on "full control" and press "ok". Exit out of that window and press "apply" and "ok". You can now press "ok" on the "ost-config.php propeties" window, but minimize the "include" folder, we'll come back to it later.
 <br />
 
 <p>
@@ -126,88 +126,86 @@ On the search bar, type in "IIS" as an admin.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/qBbgrZ3.png" height="80%" width="80%"
 </p>
 <p>
-Find "CGI" and click on it.
+IIS should look like this picture. Next, find "CGI" and click on it.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/5uoPb89.png" height="80%" width="80%"
 </p>
 <p>
 Find "PHP manager" and register. 
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img <img src="https://i.imgur.com/s6R2pYG.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/9LKSX98.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/jTmOf30.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/wJqXhYL.png        " height="30%" width="30%" <p> <img src="https://i.imgur.com/FN0zELv.png" height="30%" width="30%" 
 </p>
 <p>
-For the path, navigate to where we created and installed PHP earlier. (c:\PHP\php-cgi.exe). Navigate until you find the executable. Press "ok" Stop and start the server.
+For the path, navigate to where we created the PHP folder and extracted "php-7.3.8-nts-Win32-VC15-x86" to earlier. (c:\PHP\php-cgi.exe). Navigate until you find the executable. Switch back to "IIS" and go back to the main page. press "ok" to "Stop" and "Start" the server.
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/sVrXRVz.png" height="50%" width="50%" <p> <img src="https://i.imgur.com/5GOFRT3.png" height="50%" width="50%"
 </p>
 <p>
-Still in the same window, find "php extensions" and click on "enable or disable an extension". Find "php_imap.dll", "p0hp_intl.dll" and php_opcache.dll. Enable them by right-clicking and pressing "enable" on each of them. These are necessary to allow osTicket to run correctly.
+Go back to "PHP manager" and find "php extensions" and click on "enable or disable an extension". Find "php_imap.dll". Enable them by right-clicking and pressing "enable" on each of them. Do the same for "php_intl.dll" and php_opcache.dll. These are necessary to allow osTicket to run correctly. Go back to the main menu once again.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/pSuXiwn.png" height="80%" width="80%"
 </p>
 <p>
-Afterwards, navigate the lefthand side until you find "osTicket". Click on it and browse. the osTicket site should've popped up.
+Afterwards, navigate the lefthand side until you find "osTicket". Click on it and "browse". the osTicket site should've popped up.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/N1eY7N6.png" height="40%" width="40%"  <p> <img src="https://i.imgur.com/CBYLyNv.png" height="40%" width="40%"
 </p>
 <p>
-Click next a couple of times until you are greated with this page. Go ahead and name your helpdesk, and input an email. For the admin settings, Fill in your name and add an email different from the one used previously.
+From here, click "continue". On the next page, go ahead and name your helpdesk, and input an email. For the admin settings, Fill in your name and add an email different from the one used previously. Make sure to take note of your admin details, you'll need them to login on the login page.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
-</p>
-<p>
-For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". For the MySQL Username and password, enter the configuration you created when installing MySQL, for this example, we used "Root" for both. Press "Install Now" and wait.
-<br />
-
-<p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%" 
 </p>
 <p>
 For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". For the MySQL Username and password, enter the configuration you created when installing MySQL, for this example, we used "Root" for both. Press "Install Now" and wait.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/e33MceJ.png" height="80%" width="80%"
+</p>
+<p>
+For the database settings, the first two bars should've been already filled, don't touch them. For the MySQL database, enter "osTicket". Remmeber that the MySQL username is "Root". For the MySQL password, enter the password you created when installing MySQL, for this example, we used "root". Press "Install Now" and wait.
+<br />
+
+<p>
+<img <img src="https://i.imgur.com/jxC7ebK.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/dyqNjY8.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/VAy4RWu.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/jrV9Sod.png        " height="30%" width="30%" <p> <img src="https://i.imgur.com/4gayK4h.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/qUKDiQN.png" height="30%" width="30%"  <p> <img src="https://i.imgur.com/fDAWneb.png" height="30%" width="30%" 
 </p>
 <p>
 In the meantime, go back to the osTicket installation files and install "Heidi SQL". Agree to the terms and press "next" until you reach the page that says "Ready to install". Press the install button and wait for it to be installed. After that, press "finish", making sure that "Launch HeidiSQL" box is ticked on. 
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
-</p>
+<img <img src="https://i.imgur.com/0rKChbm.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/wFf3gQJ.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/2ELX50S.png" height="30%" width="30%" 
 <p>
-On this window, press "skip". Then, press "new" and enter your password that you created for root. A bunch of folders should've appeared, including one called "osTicket".
+On this window, press "skip". Then, press "new" and enter your password that you created for root. A bunch of folders should've appeared, including one called "osTicket". Once you see these folders, go ahead and exit out of Heidi SQL.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/p7pp7wk.png" height="30%" width="30%" <img <img src="https://i.imgur.com/4Gfu1Q2.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/dWrc1m3.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/s2vLixq.png" height="30%" width="30%" <p> <img src="https://i.imgur.com/IMlRRBO.png "height="30%" width="30%" <p> <img src="https://i.imgur.com/YlcpyG4.png" height="30%" width="30%" 
 </p>
 <p>
-After all of this, osTicket should be up and running, congrats on following this tutorial on how to get osTicket up and running! Make sure to clean stuff up like deleting the "setup" folder in C:\inetpub\wwwroot\osTicket\setup, as well as
-setting permissions to “Read” only in the "ost-config.php" file located in C:\inetpub\wwwroot\osTicket\include\ost-config.php
+After all of this, osTicket should be up and running, congrats on following this tutorial on how to get osTicket up and running! But we are not quite down yet. It's time to clean stuff up. For instance, deleting the "setup" folder in C:\inetpub\wwwroot\osTicket\setup. (Right-click -> Delete). You can exit the folder now. Remember that "include" folder I hope you minimized? Now's the time to open it and set permissions to “Read” only in the "ost-config.php". If you accidently closed the folder, the file is located in C:\inetpub\wwwroot\osTicket\include\ost-config.php. Once you do that, you can exit the folder, as well as close IIS.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/9HNCxTy.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/ZRnZj0w.png" height="40%" width="40%"
 </p>
 <p>
-You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here<p> and as a user <a href=http://localhost/osTicket/>here.
+You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here<p> and as a user <a href=http://localhost/osTicket/>here. Congratulations (for real this time), you are now have osTicket running. It is now time to configure osTicket so that we can get ready to solve tickets.
 <br />
 
