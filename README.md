@@ -206,6 +206,6 @@ After all of this, osTicket should be up and running, congrats on following this
 <img src="https://i.imgur.com/9HNCxTy.png" height="40%" width="40%" <p> <img src="https://i.imgur.com/ZRnZj0w.png" height="40%" width="40%"
 </p>
 <p>
-You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here<p> and as a user <a href=http://localhost/osTicket/>here. Congratulations (for real this time), you are now have osTicket running. It is now time to configure osTicket so that we can get ready to solve tickets.
+You can now access the osTicket site as an admin <a href=http://localhost/osTicket/scp/login.php>here<p> and as a user <a href=http://localhost/osTicket/>here.</p> Congratulations (for real this time), you are now have osTicket running. It is now time to configure osTicket so that we can get ready to solve tickets.
 <br />
 
