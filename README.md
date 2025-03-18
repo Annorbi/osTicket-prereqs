@@ -119,7 +119,7 @@ After, click "add", "select and principal" and for the "object name" type in "Ev
 <br />
 
 <p>
-<img src="https://i.imgur.com/8AdlXf2.png" height="80%" width="80%"
+<img src="https://i.imgur.com/3Ipnwxu.png" height="80%" width="80%"
 </p>
 <p>
 On the search bar, type in "IIS" as an admin.
